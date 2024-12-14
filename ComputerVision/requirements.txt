@@ -1,0 +1,11 @@
+torch  #==2.0.1
+torchvision #==0.15.2
+matplotlib #==3.8.0
+ipykernel
+streamlit
+opencv-python
+scikit-learn
+opencv-python
+controlnet-aux
+easy-dwpose
+

@@ -26,7 +26,9 @@ def main():
     st.title("Object Counting with OpenCV")
     st.sidebar.title("Settings")
     uploaded_file = st.sidebar.file_uploader("Upload an Image", type=["jpg", "jpeg", "png"])
-    default_image_path = "example.jpg"
+    # default_image_path = "example.jpg"
+    default_image_path = "../ComputerVision/Demos/object_counting/example.jpg"
+    
     if uploaded_file is not None:
         image = Image.open(uploaded_file).convert('RGB')
     else:
