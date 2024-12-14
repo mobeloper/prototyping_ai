@@ -1,0 +1,24 @@
+Watch this video as a first step this week. A great review of the past 10 years of NLP
+history. We will be going over most of this in detail.
+https://www.youtube.com/watch?v=uocYQH0cWTs
+
+Nextdoor’s abusive language detection (NLP) pipeline goes into the ML lifecycle, proper
+data curation of unstructured data (text) and various elements we learned from the
+MLOps lectures, primarily feature stores.
+https://engblog.nextdoor.com/using-predictive-technology-to-foster-constructive-
+conversations-4af437942bd4
+
+AWS Partnered with Savana Healthcare to use NLP and streamline analysis of
+electronic medical records at scale.
+https://aws.amazon.com/solutions/case-studies/savana-natural-language-case-
+study/?did=cr_card&amp;trk=cr_card
+
+Mitigating Bias in Natural Language Processing. This paper outlines the sources of bias
+as well as the strategies used to combat it.
+https://aclanthology.org/P19-1159/
+
+The Complete NLP Guide. This guide will dive into NLP topics at a high level and
+introduce many of the topics we will review in class. It will use many buzzwords so do
+not worry if you are not familiar with all the vocabulary. It’s also something great to
+reference after the class.
+https://www.deeplearning.ai/resources/natural-language-processing/
