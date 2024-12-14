@@ -1,0 +1,62 @@
+{
+  "cot": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "review": "got for the kids, lots of variety for them to play with. wife said she might steal some of the colors as well. seems to be pretty deep so should be a lot of life in the kit.",
+        "examples": "Review: got for the kids, lots of variety for them to play with. wife said she might steal some of the colors as well. seems to be pretty deep so should be a lot of life in the kit.\nRating: 4\n\nReview: I like that these puzzles are very colorful. They would definitely catch a child's eye. I think these are a great learning tool as they have 6 different animals for children to learn about. The pieces are thick enough for a toddler to pick up. They are made out of wood and the puzzle board is made out of wood also. The pieces fit nicely into the little bag that comes with it, but the puzzle did not fit in the bag. The only down side is that the pieces are in the smaller side so, a parent or guardian would need to watch the child to make sure they do not put the pieces in their mouth\nRating: 3\n\nReview: I tested out both the green tones set and the earth tones set. The pens write fairly well, color chart shows both sets. It is hard to get a good picture of the glitter tones, but they are all indeed greenish or brownish, some are just so glittery that they read as silver in the picture. Strangely, the green tones set has numbered refills that match the numbered refills in the pens, but the earth tones set has no numbering at all. The cases are really crappy, the one case split open and the pens fell out just from the slight pressure of putting the pen back into the case. For me, this is not really an issue, I rarely keep gel pens in the case they come in, but mentioning this for those who do. If all you want are green and earth tones, then I guess this might be worth paying the higher cost to get only those colors. Honestly though, all of the colors can be found in any number of other sets that are only slightly more expensive and which have as many as 100 other colors to boot. I can't recommend these sets because of that. Just makes no sense to pay a lot for 24 colors when you can add another 5 to 10 bucks, get all of the 24 colors in one of these sets plus 100 more. I give three stars because the pens do actually write well, I take off two stars because I was expecting something in the quality or the colors to set them apart and that did not happen.\nRating: 2\n\nReview: We bought this for our little girl when she was one, and she continues to enjoy it now that she's almost two. That said, as a parent I find it annoying that the xylophone in the toy is out of tune, or at least doesn't play any musical scale I'm familiar with. Disappointing that they couldn't make the toy more functional that way. Still, our baby mostly enjoys hitting the balls with the hammer anyway, so it's not a huge loss. Just don't expect the removable xylophone to work for playing little melodies.\nRating: 1\n\nReview: Nice, quality vinyl decals. Have had some on my work trucks for a couple years now and they haven\u2019t faded or peeled yet so I ordered more in different sizes. Highly recommended\nRating: 4",
+        "reasoning": "The review expresses a positive sentiment about the product, highlighting its variety and suitability for children. The mention of the wife potentially using some colors indicates that the product is appealing to adults as well. The reviewer also notes that the kit seems to have longevity (\"a lot of life in the kit\"), which adds to the overall positive impression. Given these factors, the review aligns closely with the example that received a rating of 4.",
+        "rating": 4
+      },
+      {
+        "review": "Very easy to assemble and it does exactly what I was hoping for. Good product for such an economical price.",
+        "rating": 4
+      }
+    ],
+    "signature": {
+      "instructions": "A rating for a review",
+      "fields": [
+        {
+          "prefix": "Review:",
+          "description": "Review text"
+        },
+        {
+          "prefix": "Examples:",
+          "description": "Examples of reviews and their ratings"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Rating:",
+          "description": "Rating of the review. Should be 0, 1, 2, 3, or 4."
+        }
+      ]
+    },
+    "extended_signature": {
+      "instructions": "Based on the provided dataset about customer dissatisfaction trends, please analyze a review and assign a rating that reflects the overall sentiment regarding product quality, advertising accuracy, and customer service.",
+      "fields": [
+        {
+          "prefix": "Review:",
+          "description": "Review text"
+        },
+        {
+          "prefix": "Examples:",
+          "description": "Examples of reviews and their ratings"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Rating:",
+          "description": "Rating of the review. Should be 0, 1, 2, 3, or 4."
+        }
+      ]
+    }
+  }
+}
