@@ -1,0 +1,21 @@
+[theme]
+
+# Primary accent for interactive elements # Digo_Black
+primaryColor = '#552F72'
+
+# Background color for the main content area #Digo_Black
+backgroundColor = '#FFFFFF' 
+
+# Background color for sidebar and most interactive widgets #Lightest Grey #F0F2F6 'rgba(232,232,233,0.6)'
+secondaryBackgroundColor = '#DCE3BA'
+
+# Color used for almost all text # Ivory White
+textColor = '#092133'
+
+# Font family for all text in the app, except code blocks
+# Accepted values (serif | sans serif | monospace) 
+# Default: "sans serif"
+font = "sans serif"
+
+[server]
+headless = true

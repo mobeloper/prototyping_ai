@@ -1,0 +1,167 @@
+/* CSS Styles */
+div[data-testid="stMainBlockContainer"] {
+  background-color: #fcfbf0;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 56px;
+  padding: 0;
+  font-family: "Denim Medium", sans-serif;
+  color: rgb(31, 65, 35);
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 45px;
+  text-transform: uppercase;
+  line-height: 42px;
+  padding: 0;
+  font-family: "Denim Medium", sans-serif;
+  color: rgb(31, 65, 35);
+  margin: 20px 0px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 34px;
+  padding: 0;
+  font-family: "Denim Medium", sans-serif;
+  color: rgb(31, 65, 35);
+  margin-bottom: 10px;
+}
+
+div[data-testid="stMarkdownContainer"] > p {
+  font-weight: 400;
+  font-size: 20px;
+  padding: 0;
+  font-family: "Denim Medium", sans-serif;
+  color: rgb(31, 65, 35);
+}
+
+button[data-testid="stBaseButton-secondaryFormSubmit"] > div > p {
+  font-size: 18px;
+}
+
+a > svg {
+  display: none;
+}
+
+a {
+  cursor: default;
+}
+
+MainMenu {
+  visibility: true;
+}
+footer {
+  visibility: hidden;
+}
+
+div[data-testid="stForm"] > div > div > div[data-testid="stVerticalBlock"] {
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+div[data-testid="stForm"] {
+  margin-bottom: 15px;
+}
+
+div[data-testid="stHorizontalBlock"]
+  > div
+  > div
+  > div
+  > div[data-testid="stVerticalBlock"] {
+  margin-left: 5px;
+  margin-right: 0px;
+}
+
+div[data-testid="stVerticalBlock"] {
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+textarea[aria-label="Transcribed Text:"] {
+  background-color: #afd9fa;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Denim Medium", sans-serif;
+  color: #1f4123;
+}
+
+textarea[aria-label="Translated Text:"] {
+  background-color: #faafc8;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Denim Medium", sans-serif;
+  color: #1f4123;
+}
+
+/* Radio Button Flex Horizontal*/
+div[role="radiogroup"] {
+  flex-direction: row;
+}
+
+section[data-testid="stFileUploaderDropzone"] {
+  background-color: #e3f7e4;
+  border: 1px solid rgba(191, 234, 194, 0.2);
+}
+
+div[data-testid="stFileUploaderDropzoneInstructions"] > span > svg {
+  fill: #315335;
+}
+
+div[data-testid="stFileUploaderDropzoneInstructions"] > div {
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0;
+  font-family: "Denim Medium", sans-serif;
+  color: #315335;
+}
+
+section[data-testid="stFileUploaderDropzone"]
+  > button[data-testid="stBaseButton-secondary"],
+button[data-testid="stBaseButton-secondaryFormSubmit"] {
+  background-color: #315335;
+  color: #ffffff;
+  border: 1px solid rgba(195, 210, 196, 0.2);
+}
+
+div[data-baseweb="select"] > div > div {
+  background-color: #e3f7e4;
+  font-family: "Denim Medium", sans-serif;
+  color: #315335;
+}
+
+div[data-baseweb="select"] > div {
+  background-color: #e3f7e4;
+  border: 1px solid rgba(191, 234, 194, 0.2);
+}
+li[role="option"] {
+  background-color: #fcfbf0;
+  font-family: "Denim Medium", sans-serif;
+  color: #315335;
+}
+
+li[role="option"]:hover {
+  background-color: #e3f7e4;
+}
+
+div[data-testid="stFormSubmitButton"]
+  > button[data-testid="stBaseButton-secondaryFormSubmit"] {
+  background-color: #315335;
+  color: #ffffff;
+  border: 1px solid rgba(195, 210, 196, 0.2);
+}
+
+button[data-testid="stBaseButton-secondaryFormSubmit"] > div > p {
+  color: #ffffff;
+  font-size: 16px;
+}
