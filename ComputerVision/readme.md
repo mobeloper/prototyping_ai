@@ -26,3 +26,7 @@ skeleton = dwpose(orig_image.convert("RGB"), output_type="pil", include_hands=Tr
 
 st.image(skeleton, caption="OpenPose Skeleton", use_column_width=True)
 ```
+
+
+# Drive link to the course materials: 
+https://drive.google.com/drive/folders/1QHDrDbT7QWLw92_rkswI_gqo02tVNjb9?usp=sharing
